@@ -1,0 +1,33 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local Streamlit Config & Secrets
+.streamlit/secrets.toml
+
+# Development Backups & Scratch Files
+*-Yash*.py
+*-Yash*.txt
+app_backup.py
+BACKUP_FULL_STABLE_*
+
+# Environment Variables
+.env
+.env.local
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+scratch/
